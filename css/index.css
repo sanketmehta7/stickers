@@ -21,14 +21,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5ff81', end
   vertical-align: -3px;
 }
 .navbar-default{
-	background: #f4ff81;
-background: -moz-linear-gradient(top, rgba(245,255,129,1) 0%, rgba(245,255,129,1) 37%, rgba(203,255,144,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(245,255,129,1)), color-stop(37%, rgba(245,255,129,1)), color-stop(100%, rgba(203,255,144,1)));
-background: -webkit-linear-gradient(top, rgba(245,255,129,1) 0%, rgba(245,255,129,1) 37%, rgba(203,255,144,1) 100%);
-background: -o-linear-gradient(top, rgba(245,255,129,1) 0%, rgba(245,255,129,1) 37%, rgba(203,255,144,1) 100%);
-background: -ms-linear-gradient(top, rgba(245,255,129,1) 0%, rgba(245,255,129,1) 37%, rgba(203,255,144,1) 100%);
-background: linear-gradient(to bottom, rgba(245,255,129,1) 0%, rgba(245,255,129,1) 37%, rgba(203,255,144,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5ff81', endColorstr='#cbff90', GradientType=0 );
+	background: #fff;
+background: -moz-linear-gradient(top, white 0%, #fdfdfd 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, white),  color-stop(100%, #fdfdfd));
+background: -webkit-linear-gradient(top, white 0%, #fdfdfd 100%);
+background: -o-linear-gradient(top, white 0%, #fdfdfd 100%);
+background: -ms-linear-gradient(top, white 0%, #fdfdfd 100%);
+background: linear-gradient(to bottom, white 0%, #fdfdfd 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fdfdfd', GradientType=0 );
 box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 .container .jumbotron, .container-fluid .jumbotron {
