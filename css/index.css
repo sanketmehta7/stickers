@@ -44,6 +44,7 @@ box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 .jumbotron img{
 	margin: 20px 0px;
+	max-width: 100%;
 }
 .jumbotron h1 {
     font-size: 150%;
@@ -55,9 +56,11 @@ box-shadow: 0 0 10px rgba(0,0,0,0.2);
     position: relative;
 }
 .jumbotron h1 span{
-	border-bottom: 2px solid #eeff41; 
+	border-bottom: 3px solid #eeff41; 
 }
-
+.support{
+	font-size: 14px;
+}
 .jumbotron p {
     margin-bottom: 15px;
     line-height: 18px;
@@ -86,16 +89,37 @@ box-shadow: 0 0 10px rgba(0,0,0,0.2);
 	font-weight: 100 !important;
 	border-radius: 0px;
 	font-size: 18px;
-	border: 2px solid #eeff41;
+	border: 3px solid #eeff41;
+	background: #eeff41;
+    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
 	margin-top: 20px;
+	margin-bottom: 0px;
+	top: 0px;
+	position: relative;
 }
 .signupJ:hover{
-	color: black;
-	background:  #eeff41;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+	top:-3px;
 }
 .boxer{
 	font-size: 14px;
 	text-align: center;
+	
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+.boxer > div{
+	border: 3px solid #f0f0f0;
+    border-radius: 3px;
+    padding-top: 30px;
+
+	min-height: 400px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.06);
 }
 .boxer img{
 	width: 128px;
@@ -115,6 +139,9 @@ box-shadow: 0 0 10px rgba(0,0,0,0.2);
 	display: block;
 }
 .boxer ul{
+	max-width: 320px;
+	margin: auto;
+
 	margin-top: 20px;
 }
 .boxer li{
@@ -140,7 +167,7 @@ box-shadow: 0 0 10px rgba(0,0,0,0.2);
     height: 100%;
 }
 .content{
-	margin-top: 100px;
+	margin-top: 30px;
 }
 footer{
 	background: black;
