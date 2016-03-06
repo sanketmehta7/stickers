@@ -1,19 +1,14 @@
 body{
-	padding-top: 100px;
-	background: rgba(245,238,113,1);
-background: -moz-linear-gradient(top, rgba(245,238,113,1) 0%, rgba(245,238,113,1) 25%, rgba(150,222,122,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(245,238,113,1)), color-stop(25%, rgba(245,238,113,1)), color-stop(100%, rgba(150,222,122,1)));
-background: -webkit-linear-gradient(top, rgba(245,238,113,1) 0%, rgba(245,238,113,1) 25%, rgba(150,222,122,1) 100%);
-background: -o-linear-gradient(top, rgba(245,238,113,1) 0%, rgba(245,238,113,1) 25%, rgba(150,222,122,1) 100%);
-background: -ms-linear-gradient(top, rgba(245,238,113,1) 0%, rgba(245,238,113,1) 25%, rgba(150,222,122,1) 100%);
-background: linear-gradient(to bottom, rgba(245,238,113,1) 0%, rgba(245,238,113,1) 25%, rgba(150,222,122,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5ee71', endColorstr='#96de7a', GradientType=0 );
+	padding-top: 60px;
+	font-family: 'Montserrat', sans-serif;
+	
 }
 .indexpage{}
 .navbar-default .navbar-brand{
   font-weight: 200;
     color: black;
     letter-spacing: -1px;
+    font-family:Lato;
 }
 .navbar-brand > img{
   display: inline;
@@ -21,7 +16,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5ee71', end
   vertical-align: -3px;
 }
 .navbar-default{
-	background: #fff;
+background: #fff;
 background: -moz-linear-gradient(top, white 0%, #fdfdfd 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, white),  color-stop(100%, #fdfdfd));
 background: -webkit-linear-gradient(top, white 0%, #fdfdfd 100%);
@@ -36,44 +31,33 @@ box-shadow: 0 0 10px rgba(0,0,0,0.2);
     padding-left: 10px;
     padding:2% 2% 2% 4%;
     border-radius: 0px;
-    box-shadow: 0 0 50px rgba(0,0,0,0.05);
     background-color: transparent;
     color: black;
     font-size: 18px;
-    background-image: url("../img/index-hero.png");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     vertical-align: middle;
     border-radius: 8px;
+    text-align: center;
 
+}
+.jumbotron img{
+	margin: 20px 0px;
 }
 .jumbotron h1 {
-    font-size: 120%;
+    font-size: 150%;
     margin: 5px 0px;
-    background-color: black;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 20px;
-    margin-bottom: 10px;
+    color: black;
+    padding: 15px 15px;
+    border-radius: 50px;
+    margin-bottom: 20px;
     position: relative;
 }
-.jumbotron h1:after{
-	position: absolute;
-	content: "2";
-	height: 24px;
-
-	width: 24px;
-	background: white;
-	border-radius: 12px;
-	top: -10px;
-	right: 16px;
-	border: 3px solid black;
-	color: black;
-	font-size: 8px;
-	text-align: center;
-	line-height: 20px;
+.jumbotron h1 span{
+	border-bottom: 2px solid #eeff41; 
 }
+
 .jumbotron p {
     margin-bottom: 15px;
     line-height: 18px;
@@ -97,15 +81,48 @@ box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 .signupJ{
 	display: inline-block;
-	padding: 5px 10px;
-	color: white ;
+	padding: 5px 35px;
+	color: black !important;
 	font-weight: 100 !important;
-	background-color: black;
 	border-radius: 0px;
 	font-size: 18px;
+	border: 2px solid #eeff41;
+	margin-top: 20px;
 }
 .signupJ:hover{
-	color: rgba(255,255,255,0.8);
+	color: black;
+	background:  #eeff41;
+}
+.boxer{
+	font-size: 14px;
+	text-align: center;
+}
+.boxer img{
+	width: 128px;
+	margin-bottom: 20px;
+}
+.boxer p{
+	max-width: 320px;
+	margin: auto;
+}
+.boxer p span{
+	border-bottom: 2px solid #eeff41;
+}
+.boxer ul,.boxer li{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	display: block;
+}
+.boxer ul{
+	margin-top: 20px;
+}
+.boxer li{
+	display: inline-block;
+	background: #eeff41;
+	padding: 2px 5px;
+	border-radius: 5px;
+	margin: 5px;
 }
 .box1 >div {
     position: relative;
@@ -130,6 +147,13 @@ footer{
 	color: white;
 	font-size: 12px;
 	margin-top: 30px;
+}
+footer a{
+	color: #fff;
+	border-bottom: 1px solid #eeff41;
+}
+footer a:hover{
+	color: #eeff41;
 }
 .frow{
 	padding: 15px 0px;
