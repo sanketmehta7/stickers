@@ -1,14 +1,36 @@
 body{
 	padding-top: 60px;
 	font-family: 'Montserrat', sans-serif;
-	
+	background: #fff;
 }
 .indexpage{}
+
+
 .navbar-default .navbar-brand{
-  font-weight: 200;
+  font-weight: 100;
     color: black;
     letter-spacing: -1px;
-    font-family:Lato;
+    font-size: 18px;
+}
+.navbar-right.navbar-nav>li>a{
+	font-size: 14px;
+}
+.navbar-nav>li>a:hover{
+	color:#FF245F !important;
+}
+.navbar-header {
+    float: left;
+}
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-right {
+    float: right!important;
+    margin-right: -15px;
+}
+.navbar-nav>li {
+    float: left;
 }
 .navbar-brand > img{
   display: inline;
@@ -16,15 +38,8 @@ body{
   vertical-align: -3px;
 }
 .navbar-default{
-background: #fff;
-background: -moz-linear-gradient(top, white 0%, #fdfdfd 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, white),  color-stop(100%, #fdfdfd));
-background: -webkit-linear-gradient(top, white 0%, #fdfdfd 100%);
-background: -o-linear-gradient(top, white 0%, #fdfdfd 100%);
-background: -ms-linear-gradient(top, white 0%, #fdfdfd 100%);
-background: linear-gradient(to bottom, white 0%, #fdfdfd 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fdfdfd', GradientType=0 );
-box-shadow: 0 0 10px rgba(0,0,0,0.2);
+background: #f4f4f4;
+    box-shadow: 0 0px 5px rgba(0,0,0,0.5);
 }
 .container .jumbotron, .container-fluid .jumbotron {
     padding-right: 10px;
@@ -42,8 +57,9 @@ box-shadow: 0 0 10px rgba(0,0,0,0.2);
     text-align: center;
 
 }
-.jumbotron img{
-	margin: 20px 0px;
+.jumbotron img.heroimg{
+	margin:6px 0px;
+	margin-top: 0px;
 	max-width: 100%;
 }
 .jumbotron h1 {
@@ -54,12 +70,14 @@ box-shadow: 0 0 10px rgba(0,0,0,0.2);
     border-radius: 50px;
     margin-bottom: 20px;
     position: relative;
+    font-weight: 800;
 }
 .jumbotron h1 span{
-	border-bottom: 3px solid #eeff41; 
+	border-bottom: 3px solid #FFF100; 
 }
 .support{
 	font-size: 14px;
+	color: #777;
 }
 .jumbotron p {
     margin-bottom: 15px;
@@ -69,12 +87,12 @@ box-shadow: 0 0 10px rgba(0,0,0,0.2);
     padding-left: 10px;
 }
 .jumbotron a{
-	margin-left: 10px;
 	margin-bottom: 10px;
 }
 .jumbotron p.noapp{
 	font-weight: 100;
 	font-style: italic;
+	margin-top: 30px;
 }
 .jumbotron .box{
 	vertical-align: middle;
@@ -85,12 +103,12 @@ box-shadow: 0 0 10px rgba(0,0,0,0.2);
 .signupJ{
 	display: inline-block;
 	padding: 5px 35px;
-	color: black !important;
+	
 	font-weight: 100 !important;
-	border-radius: 0px;
+	border-radius: 5px !important;
 	font-size: 18px;
-	border: 1px solid #000;
-	background: #eeff41;
+	border: 3px solid #FF245F;
+	background: white;
     -webkit-transition: all 0.15s ease-in-out;
     -moz-transition: all 0.15s ease-in-out;
     -ms-transition: all 0.15s ease-in-out;
@@ -100,10 +118,15 @@ box-shadow: 0 0 10px rgba(0,0,0,0.2);
 	margin-bottom: 0px;
 	top: 0px;
 	position: relative;
+	color: #FF245F !important;
 }
 .signupJ:hover{
 	box-shadow: 0 5px 5px rgba(0,0,0,0.1);
-	top:-3px;
+	top:-2px;
+	
+	background: #FF245F;
+	border: 3px solid #FF245F;
+	color: white !important;
 }
 .boxer{
 	font-size: 14px;
@@ -115,14 +138,15 @@ box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 .boxer > div{
 	border: 3px solid #f0f0f0;
-    border-radius: 3px;
+    border-radius: 15px;
+    padding: 30px 20px 0px;
     padding-top: 30px;
 
-	min-height: 400px;
+	min-height: 330px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.06);
 }
 .boxer img{
-	width: 128px;
+	width: 64px;
 	margin-bottom: 20px;
 }
 .boxer p{
@@ -184,6 +208,13 @@ footer a:hover{
 }
 .frow{
 	padding: 15px 0px;
+	width: 60%;
+	display: inline-block;
+}
+.frowl{
+	width: 40%;
+    text-align: right;
+    padding: 15px 0px;
 }
 .banners{
 	color: black;
@@ -209,4 +240,123 @@ footer a:hover{
 }
 .banners{
 	margin-bottom: 100px;
+}
+.section{
+	background: orange;
+	color: white;
+}
+.section header{
+	padding: 20px;
+	font-size: 24px;
+	width: 70%;
+}
+.section .container{
+	padding: 20px;
+	position: relative;
+}
+.section .btn{
+	float: right;
+	background: white;
+	color: black;
+	padding: 3px 10px;
+	border-radius: 25px;
+	font-weight: 100;
+	border: 2px solid #444;
+	position: absolute;
+	right: 0px;
+	top: 50px;
+	-webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+}
+.section .btn:hover{
+	right: 3px;
+}
+@-webkit-keyframes shake {
+    0%, 100% {-webkit-transform: translateX(0);transform: translateX(0);}
+    10%, 50%, 90% {-webkit-transform: translateX(-3px);transform: translateX(-3px);}
+    30%, 70% {-webkit-transform: translateX(3px);transform: translateX(3px);}
+}
+
+@keyframes shake {
+    0%, 100% {-webkit-transform: translateX(0);transform: translateX(0);}
+    10%, 50%, 90% {-webkit-transform: translateX(-3px);transform: translateX(-3px);}
+    30%, 70% {-webkit-transform: translateX(3px);transform: translateX(3px);}
+}
+
+.shake {
+    -webkit-animation-name: shake;
+            animation-name: shake;
+}
+.section:hover .btn{
+	-webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-name: shake;
+            animation-name: shake;
+        
+}
+.section.blue{
+	background: #006AAD;
+
+}
+.section.orange{
+	background: #FFF100;
+	color: black;
+}
+.section.grey{
+	background: #e4e4e4;
+	color: black;
+}
+.section.green{
+	background: #C2FFC8;
+	color: black;
+}
+
+footer a{
+    vertical-align: middle;
+}
+footer a img{
+    border-radius: 50%;
+    -webkit-filter: grayscale(80%);
+filter: grayscale(80%);
+width: 24px;
+margin-top: -2px;
+opacity: 1;
+}
+footer a.social{
+	text-decoration: none !important;
+	border: none;
+}
+
+@media (max-width: 350px){
+	.container {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.container .jumbotron, .container-fluid .jumbotron{
+		padding: 0px;
+	}
+	.section header{
+		padding: 20px;
+		font-size: 16px;
+		width: 80%;
+    	line-height: 16px;
+	}
+	.section .container{
+		padding: 0px;
+	}
+}
+@media (max-width: 560px){
+	.section header{
+		padding: 20px;
+		font-size: 16px;
+    	line-height: 16px;
+	}
+	.section .container{
+		padding: 0px;
+	}
 }
