@@ -58,14 +58,14 @@ background: #f4f4f4;
 
 }
 .jumbotron img.heroimg{
-	margin:6px 0px;
+	margin:0px 0px;
 	margin-top: 0px;
 	max-width: 100%;
 }
 .jumbotron h1 {
-    font-size: 150%;
+    font-size: 200%;
     margin: 5px 0px;
-    color: black;
+    color: #ff245f;
     padding: 15px 15px;
     border-radius: 50px;
     margin-bottom: 20px;
